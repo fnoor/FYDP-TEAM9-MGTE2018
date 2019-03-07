@@ -1,22 +1,18 @@
 ﻿body, html {
-  margin:0px;
-  /*background-image:none;
-  /*position:relative;*/ 
-  /*left:-43px;*/ 
-  width:auto; 
+  /*margin:0px;
+  background-image:none;
+  position:relative;
+  left:-43px;
+  width:2018px;
   margin-left:auto;
   margin-right:auto;
-  text-align:left;
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
-html, body, {
+  text-align:left;*/
+  padding: 0;
+margin: 0;
 
 }
+
+
 #base {
   position:absolute;
   z-index:0;
