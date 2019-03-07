@@ -1,15 +1,16 @@
 ﻿body, html {
-  /*margin:0px;
+  margin:0px;
   background-image:none;
   position:relative;
   left:-43px;
   width:2018px;
   margin-left:auto;
   margin-right:auto;
-  text-align:left;*/
-  padding: 0;
-margin: 0;
-
+  text-align:left;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
 }
 
 
@@ -118,7 +119,7 @@ margin: 0;
   font-size:48px;
   color:#5193C3;
 }
-#u2 {
+#title {
   border-width:0px;
   position:absolute;
   left:43px;
@@ -131,7 +132,7 @@ margin: 0;
   font-size:48px;
   color:#5193C3;
 }
-#u2_text {
+#title_text {
   border-width:0px;
   position:absolute;
   left:2px;
@@ -139,7 +140,7 @@ margin: 0;
   width:2014px;
   word-wrap:break-word;
 }
-#u3_div {
+#reco_btn_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -158,7 +159,7 @@ margin: 0;
   font-style:normal;
   font-size:16px;
 }
-#u3 {
+#reco_btn {
   border-width:0px;
   position:absolute;
   left:375px;
@@ -170,7 +171,7 @@ margin: 0;
   font-style:normal;
   font-size:16px;
 }
-#u3_text {
+#reco_btn_text {
   border-width:0px;
   position:absolute;
   left:2px;
@@ -178,7 +179,7 @@ margin: 0;
   width:154px;
   word-wrap:break-word;
 }
-#u4_div {
+#reset_btn_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -197,7 +198,7 @@ margin: 0;
   font-style:normal;
   font-size:16px;
 }
-#u4 {
+#reset_btn {
   border-width:0px;
   position:absolute;
   left:957px;
@@ -209,7 +210,7 @@ margin: 0;
   font-style:normal;
   font-size:16px;
 }
-#u4_text {
+#reset_btn_text {
   border-width:0px;
   position:absolute;
   left:2px;
@@ -217,7 +218,7 @@ margin: 0;
   width:159px;
   word-wrap:break-word;
 }
-#u5 {
+#name_bx {
   border-width:0px;
   position:absolute;
   left:284px;
@@ -225,7 +226,7 @@ margin: 0;
   width:249px;
   height:36px;
 }
-#u5_input {
+#name_bx_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -239,7 +240,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u6 {
+#lhin_bx {
   border-width:0px;
   position:absolute;
   left:284px;
@@ -247,7 +248,7 @@ margin: 0;
   width:249px;
   height:36px;
 }
-#u6_input {
+#lhin_bx_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -261,7 +262,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u7 {
+#edu_lvl {
   border-width:0px;
   position:absolute;
   left:284px;
@@ -269,7 +270,7 @@ margin: 0;
   width:249px;
   height:36px;
 }
-#u7_input {
+#edu_lvl_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -283,7 +284,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u8 {
+#prov_code {
   border-width:0px;
   position:absolute;
   left:284px;
@@ -291,7 +292,7 @@ margin: 0;
   width:249px;
   height:36px;
 }
-#u8_input {
+#prov_code_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -305,7 +306,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u9 {
+#act_dur {
   border-width:0px;
   position:absolute;
   left:284px;
@@ -313,7 +314,7 @@ margin: 0;
   width:249px;
   height:36px;
 }
-#u9_input {
+#act_dur_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -327,7 +328,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u10 {
+#t1_desc {
   border-width:0px;
   position:absolute;
   left:675px;
@@ -335,7 +336,7 @@ margin: 0;
   width:443px;
   height:136px;
 }
-#u10_input {
+#t1_desc_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -349,7 +350,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u11 {
+#t3_rec {
   border-width:0px;
   position:absolute;
   left:675px;
@@ -357,7 +358,7 @@ margin: 0;
   width:443px;
   height:29px;
 }
-#u11_input {
+#t3_rec_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -371,7 +372,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u12 {
+#t2_rec {
   border-width:0px;
   position:absolute;
   left:675px;
@@ -379,7 +380,7 @@ margin: 0;
   width:443px;
   height:29px;
 }
-#u12_input {
+#t2_rec_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -393,7 +394,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u13 {
+#t1_rec {
   border-width:0px;
   position:absolute;
   left:675px;
@@ -401,7 +402,7 @@ margin: 0;
   width:443px;
   height:29px;
 }
-#u13_input {
+#t1_rec_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -415,7 +416,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u14 {
+#t2_des {
   border-width:0px;
   position:absolute;
   left:675px;
@@ -423,7 +424,7 @@ margin: 0;
   width:443px;
   height:149px;
 }
-#u14_input {
+#t2_des_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -437,7 +438,7 @@ margin: 0;
   color:#000000;
   text-align:left;
 }
-#u15 {
+#t3_des {
   border-width:0px;
   position:absolute;
   left:675px;
@@ -445,7 +446,7 @@ margin: 0;
   width:443px;
   height:151px;
 }
-#u15_input {
+#t3_des_input {
   position:absolute;
   left:0px;
   top:0px;
